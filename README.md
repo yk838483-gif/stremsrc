@@ -1,3 +1,12 @@
+title: Stremsrc
+emoji: 🚀
+colorFrom: blue
+colorTo: purple
+sdk: docker
+pinned: false
+
+Stremsrc
+
 # StremSRC
 
 A VidSRC extractor addon for Stremio that provides streaming links for movies and TV series.

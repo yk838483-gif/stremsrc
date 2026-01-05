@@ -15,4 +15,4 @@ jobs:
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
         # REPLACE BELOW: Change 'YourUser/stremsrc' to your actual Hugging Face Space ID
-        run: git push https://USER:$HF_TOKEN@huggingface.co/spaces/ameer0khan/Stremsrc main
+        run: git push --force https://ameer0khan:${{ secrets.HF_TOKEN }}@huggingface.co/spaces/ameer0khan/Stremsrc main
